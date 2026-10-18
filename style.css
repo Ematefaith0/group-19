@@ -114,3 +114,38 @@ span {
     font-weight: 400;
     line-height: 150%;
 }
+.site-footer {
+  /* max-width: 420px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-content: ; */
+  padding: 28px 0px 40px;
+}
+/* .about { rgb(135, 135, 165)} */
+.footer-left h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color:rgba(75, 106, 155, 1);
+  margin-bottom: 8px;
+}
+
+.footer-left .group-members {
+    width: 50%;
+  font-size: 14px;
+  color:rgba(75, 106, 155, 1);
+  line-height: 1.4;
+}
+
+.footer-right {
+  text-align: left;
+  font-size: 13px;
+  color: rgba(75, 106, 155, 1);
+  line-height: 1.5;
+}
+.footer-right a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-right p {
+  margin-bottom: 2px;
+}
