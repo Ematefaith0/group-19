@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header , main{
+    width: 730px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.9rem 0;
+    padding: 1rem 0;
+    box-shadow: 0 16px 30px -10px rgba(70, 96, 187, 0.4);
+    border-radius: 1rem;
+}
+
+input {
+    width: 80%;
+    padding: 0.6rem;
+    border: none;
+}
+
+form button {
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+    background-color: #0079FF;
+    color: white;
+    border: none;
+}
+#hero-section {
+    display: grid;
+    grid-template-columns: 200px auto;
+    box-shadow: 0 16px 30px -10px rgba(70, 96, 187, 0.4);
+    padding: 3rem 0;
+}
+
+.text-content>p {
+    font-family: "Space Mono", monospace;
+}
+
+.measurement-record {
+    background-color:rgba(246, 248, 255, 1);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+.measurement-record>div>h2 {
+    color: rgba(75, 106, 155, 1);
+    font-family: "Space Mono", monospace;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.measurement-record>div>p {
+    color: rgba(43, 52, 66, 1);
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.measurement-record>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.measurement-record>div>img {
+    width: 50px;
+    height: 50px;
+}
+
+.measurement-readings {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+span {
+    color: rgba(75, 106, 155, 1);
+    margin-left: 1rem;
+}
+
+#planet-facts {
+    margin: 3rem 0
+}
+
+.planet-type,
+.planet-fact {
+    color: rgba(0, 121, 255, 1);
+    margin: 1rem 0;
+}
+
+.planet-fact {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+#planet-facts p {
+    color: rgba(75, 106, 155, 1);
+    margin: 1rem 0;
+    font-weight: 400;
+    line-height: 150%;
+}
