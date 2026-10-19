@@ -137,9 +137,9 @@ Update this section with your actual team members.
 | Fashina Victoria Boluwatife | https://github.com/VB24136 | Header, Table, form. |
 | Babalola Pelumi David | https://github.com/cyberzzinger | Theme tokens |
 | Adeniji Quadri Ajibola | https://github.com/engradenijiquadri | Style.css, Responsiveness, themes Header, Table, form. |
-| Otunubi Abraham Afolabi| https://github.com/Abraham001510| Persistence module code ( setTheme,  currentTheme, paintToggle, and initTheme) into script.js.
-But yet to push my branch |
+| Otunubi Abraham Afolabi| https://github.com/Abraham001510| Persistence module code ( setTheme,  currentTheme |
 | Ajayi Bolarinwa Ruth | https://github.com/ellajulia241707-byte | Hover/ Focus
+| Abdulkareem Ogedemgbe | https://github.com/Kreemyy | Responsiveness, Planet card component.
 
 ---
 
@@ -149,8 +149,8 @@ But yet to push my branch |
 |-----------|----------------|
 | No code || Faith, Joshua, Adeniran
 | HTML Structure | | Farian, Faith, Ruth, Jonathan
-| CSS Styling | | Farian, Faith, Faith, Ruth
-| Responsive Design | | Joshua Micheal Utik, Muhammed
+| CSS Styling | | Farian, Faith, Faith, Ruth, Abdulkareem
+| Responsive Design | | Joshua, Muhammed, Abdulkareem
 | Dark Mode | | Adeniran
 | API Integration | | Adeniran
 | Search Functionality | | Adeniran
@@ -158,6 +158,7 @@ But yet to push my branch |
 | Deployment | | Joshua Michael Utik
 | Documentation | Joshua Michael Utik |
 | Theme tokens | Pelumi David
+| Theme tokens | Abdulkareem Ogedemgbe
 
 > Update this table as work is completed.
 
