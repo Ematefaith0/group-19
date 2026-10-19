@@ -6,7 +6,7 @@
 }
 
 header , main{
-    width: 730px;
+    width: 730px; 
     margin: auto;
 }
 
@@ -149,3 +149,90 @@ span {
 .footer-right p {
   margin-bottom: 2px;
 }
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .search-bar {
+        display: flex;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .search-bar input {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .search-bar button {
+        padding: 10px 15px;
+    }
+
+    .planet-card {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .planet-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+
+    /* Planet comparison table */
+    table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        font-size: 10px;
+    }
+
+    th,
+    td {
+        padding: 8px 4px;
+        overflow-wrap: break-word;
+    }
+
+    .about {
+        padding: 15px 0;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 15px;
+    }
+}
+ 
