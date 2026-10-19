@@ -640,7 +640,6 @@ span {
 /* =========================================
    RESPONSIVE DESIGN — PLANET EXPLORER
    Add this at the END of your original CSS
-========================================= */
 
 /* Prevent elements from exceeding the screen */
 html {
@@ -712,7 +711,6 @@ svg {
 
 /* =========================
    TABLETS — 768px and below
-========================= */
 @media screen and (max-width: 768px) {
   .page {
     padding: 32px 20px;
@@ -769,7 +767,6 @@ svg {
 
 /* =========================
    MOBILE — 600px and below
-========================= */
 @media screen and (max-width: 600px) {
   .page {
     padding: 24px 16px;
@@ -959,7 +956,6 @@ svg {
 
 /* =========================
    SMALL PHONES — 380px and below
-========================= */
 @media screen and (max-width: 380px) {
   .page {
     padding-inline: 12px;
